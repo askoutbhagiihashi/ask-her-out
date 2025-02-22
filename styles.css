@@ -1,0 +1,76 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background: #efb7e7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: rgb(228, 179, 214);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.gif-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.tenor-gif-embed {
+    width: 100%;
+    max-width: 200px !important;
+    height: auto !important;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 100px;
+    transition: 0.3s;
+}
+
+#yesButton {
+    background-color: #ff3366;
+    color: white;
+}
+
+#yesButton:hover {
+    background-color: #ff1a4d;
+}
+
+#noButton {
+    background-color: #ccc;
+    color: black;
+}
